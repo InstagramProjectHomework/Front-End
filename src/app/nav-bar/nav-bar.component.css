@@ -152,6 +152,7 @@ body {
   position: fixed;
   margin-left: -5%;
   margin-top: -1%;
+  color: #212529;
   cursor: pointer;
 }
 
@@ -160,4 +161,285 @@ body {
   margin-left: -1.5%;
   margin-top: -1%;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 5500px) {
+  .house{
+    position: fixed;
+    margin-left: -15%;
+    margin-top: -.3%;
+    cursor: pointer;
+  }
+  
+  .message{
+    position: fixed;
+    margin-left: -10%;
+    margin-top: -.3%;
+    cursor: pointer;
+  }
+  
+  .squarePlus{
+    position: fixed;
+    margin-left: -5.5%;
+    margin-top: -.3%;
+    cursor: pointer;
+  }
+  
+  .compass{
+      position: fixed;
+      margin-left: -1.5%;
+      margin-top: -.3%;
+      cursor: pointer;
+  }
+  
+  .heart{
+    position: fixed;
+    margin-left: 3%;
+    margin-top: -.3%;
+    cursor: pointer;
+  }
+  
+  .userCircle{
+    position: fixed;
+    margin-left: 7.5%;
+    margin-top: -.3%;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 4100px) {
+  .house{
+    position: fixed;
+    margin-left: -15%;
+    margin-top: -.5%;
+    cursor: pointer;
+  }
+  
+  .message{
+    position: fixed;
+    margin-left: -10%;
+    margin-top: -.5%;
+    cursor: pointer;
+  }
+  
+  .squarePlus{
+    position: fixed;
+    margin-left: -5.5%;
+    margin-top: -.5%;
+    cursor: pointer;
+  }
+  
+  .compass{
+      position: fixed;
+      margin-left: -1.5%;
+      margin-top: -.5%;
+      cursor: pointer;
+  }
+  
+  .heart{
+    position: fixed;
+    margin-left: 3%;
+    margin-top: -.5%;
+    cursor: pointer;
+  }
+  
+  .userCircle{
+    position: fixed;
+    margin-left: 7.5%;
+    margin-top: -.5%;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .house{
+    position: fixed;
+    margin-left: -15%;
+    margin-top: -1%;
+    cursor: pointer;
+  }
+  
+  .message{
+    position: fixed;
+    margin-left: -10%;
+    margin-top: -1%;
+    cursor: pointer;
+  }
+  
+  .squarePlus{
+    position: fixed;
+    margin-left: -5.5%;
+    margin-top: -1%;
+    cursor: pointer;
+  }
+  
+  .compass{
+      position: fixed;
+      margin-left: -1.5%;
+      margin-top: -1%;
+      cursor: pointer;
+  }
+  
+  .heart{
+    position: fixed;
+    margin-left: 3%;
+    margin-top: -1%;
+    cursor: pointer;
+  }
+  
+  .userCircle{
+    position: fixed;
+    margin-left: 7.5%;
+    margin-top: -1%;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .house{
+    position: fixed;
+    margin-left: -15%;
+    margin-top: -1%;
+    cursor: pointer;
+  }
+  
+  .message{
+    position: fixed;
+    margin-left: -10%;
+    margin-top: -1%;
+    cursor: pointer;
+  }
+  
+  .squarePlus{
+    position: fixed;
+    margin-left: -5.5%;
+    margin-top: -1%;
+    cursor: pointer;
+  }
+  
+  .compass{
+      position: fixed;
+      margin-left: -1.5%;
+      margin-top: -1%;
+      cursor: pointer;
+  }
+  
+  .heart{
+    position: fixed;
+    margin-left: 3%;
+    margin-top: -1%;
+    cursor: pointer;
+  }
+  
+  .userCircle{
+    position: fixed;
+    margin-left: 7.5%;
+    margin-top: -1%;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logo{
+    display: none;
+  }
+  .house{
+    position: fixed;
+    margin-left: 15%;
+    margin-top: -2%;
+    font-size: 200% !important;
+    cursor: pointer;
+  }
+  
+  .message{
+    position: fixed;
+    margin-left: 27%;
+    margin-top: -2%;
+    font-size: 200% !important;
+    cursor: pointer;
+  }
+  
+  .squarePlus{
+    position: fixed;
+    margin-left: 39%;
+    margin-top: -2%;
+    font-size: 200% !important;
+    cursor: pointer;
+  }
+  
+  .compass{
+      position: fixed;
+      margin-left: 50%;
+      margin-top: -2%;
+      font-size: 200% !important;
+      cursor: pointer;
+  }
+  
+  .heart{
+    position: fixed;
+    margin-left: 62%;
+    margin-top: -2%;
+    font-size: 200% !important;
+    cursor: pointer;
+  }
+  
+  .userCircle{
+    position: fixed;
+    margin-left: 74%;
+    margin-top: -2%;
+    font-size: 200% !important;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .logo{
+    display: none;
+  }
+  .house{
+    position: fixed;
+    margin-left: 2%;
+    margin-top: -2%;
+    font-size: 200% !important;
+    cursor: pointer;
+  }
+  
+  .message{
+    position: fixed;
+    margin-left: 18%;
+    margin-top: -2%;
+    font-size: 200% !important;
+    cursor: pointer;
+  }
+  
+  .squarePlus{
+    position: fixed;
+    margin-left: 34%;
+    margin-top: -2%;
+    font-size: 200% !important;
+    cursor: pointer;
+  }
+  
+  .compass{
+      position: fixed;
+      margin-left: 47%;
+      margin-top: -2%;
+      font-size: 200% !important;
+      cursor: pointer;
+  }
+  
+  .heart{
+    position: fixed;
+    margin-left: 60.5%;
+    margin-top: -2%;
+    font-size: 200% !important;
+    cursor: pointer;
+  }
+  
+  .userCircle{
+    position: fixed;
+    margin-left: 74%;
+    margin-top: -2%;
+    font-size: 200% !important;
+    cursor: pointer;
+  }
 }
