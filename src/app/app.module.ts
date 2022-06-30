@@ -7,13 +7,17 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ProfilePageComponent } from './profile-page/profile-page.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LoginComponent } from './login/login.component';
+import { MainPageComponent } from './main-page/main-page.component';
+import { MessagesPageComponent } from './messages-page/messages-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     ProfilePageComponent,
-    LoginComponent
+    LoginComponent,
+    MainPageComponent,
+    MessagesPageComponent
   ],
   imports: [
     BrowserModule,
