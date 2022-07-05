@@ -1,0 +1,751 @@
+.container{
+    border-color: gray;
+    border-style: solid;
+    border-width: .1rem;
+    width: 70%;
+    height: 80vh;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+
+.containerText{
+    border-color: gray;
+    border-style: solid;
+    border-width: .1rem;
+    width: 40%;
+    height: 80vh;
+    margin-top: -.2%;
+    margin-left: -1%;
+    float: left;
+}
+
+.text{
+    margin-left: 15%;
+}
+
+.inputText{
+    width: 65%;
+    margin-top: 62%;
+    border-style: solid;
+    border-radius: 1rem;
+    padding-left: 1%;
+    margin-top: 60%;
+    margin-left: 4%;
+}
+
+.buttonText{
+    background-color: #47afff;
+    border-color: #47afff;
+    border-radius: .4rem;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+}
+
+.sendText{
+    margin-left: -4%;
+}
+
+.textSent{
+    width: 40%;
+    height: 66%;
+    overflow-y: scroll;
+    margin-top: 2%;
+    margin-left: 18%;
+    position: absolute;
+}
+
+@media only screen and (max-width: 5500px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 200rem;
+        height: 80vh;
+        margin-top: 6.5%;
+        margin-left: 41%;
+    }
+
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80vh;
+        margin-top: -.2%;
+        margin-left: -.9%;
+        float: left;
+    }
+
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 210%;
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 4100px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 200rem;
+        height: 80vh;
+        margin-top: 6.5%;
+        margin-left: 38%;
+    }
+
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80vh;
+        margin-top: -.2%;
+        margin-left: -.9%;
+        float: left;
+    }
+
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 156%;
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 4100px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 200rem;
+        height: 80vh;
+        margin-top: 6.5%;
+        margin-left: 38%;
+    }
+
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80vh;
+        margin-top: -.2%;
+        margin-left: -.9%;
+        float: left;
+    }
+
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 156%;
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 2800px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 200rem;
+        height: 80vh;
+        margin-top: 6.5%;
+        margin-left: 30%;
+    }
+
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80vh;
+        margin-top: -.2%;
+        margin-left: -.9%;
+        float: left;
+    }
+
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 102%;
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 2100px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 6.5%;
+        margin-left: 23%;
+    }
+
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80vh;
+        margin-top: -.2%;
+        margin-left: -.9%;
+        float: left;
+    }
+
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 75%;
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 8%;
+        margin-left: 19%;
+    }
+
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80vh;
+        margin-top: -.2%;
+        margin-left: -.9%;
+        float: left;
+    }
+
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 67%;
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 8%;
+        margin-left: 17%;
+    }
+
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80vh;
+        margin-top: -.2%;
+        margin-left: -.9%;
+        float: left;
+    }
+
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 63%;
+        margin-left: 4%;
+    }
+}
+@media only screen and (max-width: 1700px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 8%;
+        margin-left: 15%;
+    }
+    
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80vh;
+        margin-top: -.2%;
+        margin-left: -1%;
+        float: left;
+    }
+    
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 60%;
+        margin-left: 4%;
+    }
+    
+    .buttonText{
+        background-color: #47afff;
+        border-color: #47afff;
+        border-radius: .4rem;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .sendText{
+        margin-left: -4%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 8.5%;
+        margin-left: 15%;
+    }
+    
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80vh;
+        margin-top: -.2%;
+        margin-left: -1%;
+        float: left;
+    }
+    
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 59%;
+        margin-left: 4%;
+    }
+    
+    .buttonText{
+        background-color: #47afff;
+        border-color: #47afff;
+        border-radius: .4rem;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .sendText{
+        margin-left: -5%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 10%;
+        margin-bottom: 1%;
+        margin-left: 15%;
+    }
+    
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 79.8vh;
+        margin-top: -.2%;
+        margin-left: -1.5%;
+        float: left;
+    }
+    
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 59%;
+        margin-left: 4%;
+    }
+    
+    .buttonText{
+        background-color: #47afff;
+        border-color: #47afff;
+        border-radius: .4rem;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .sendText{
+        margin-left: -6%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 12%;
+        margin-bottom: 1.5%;
+        margin-left: 15%;
+    }
+    
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 79.9vh;
+        margin-top: -.3%;
+        margin-left: -1.8%;
+        float: left;
+    }
+    
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 58%;
+        margin-left: 4%;
+    }
+    
+    .buttonText{
+        background-color: #47afff;
+        border-color: #47afff;
+        border-radius: .4rem;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .sendText{
+        margin-left: -6%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 13.5%;
+        margin-bottom: 1.5%;
+        margin-left: 15%;
+    }
+    
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 79.9vh;
+        margin-top: -.3%;
+        margin-left: -1.8%;
+        float: left;
+    }
+    
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 57%;
+        margin-left: 4%;
+    }
+    
+    .buttonText{
+        background-color: #47afff;
+        border-color: #47afff;
+        border-radius: .4rem;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .sendText{
+        margin-left: -7%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 16%;
+        margin-bottom: 1.5%;
+        margin-left: 15%;
+    }
+    
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 79.9vh;
+        margin-top: -.4%;
+        margin-left: -2.6%;
+        float: left;
+    }
+    
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 55%;
+        margin-left: 4%;
+    }
+    
+    .buttonText{
+        background-color: #47afff;
+        border-color: #47afff;
+        border-radius: .4rem;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .sendText{
+        margin-left: -9%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 19%;
+        margin-bottom: 1.5%;
+        margin-left: 15%;
+    }
+    
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80.1vh;
+        margin-top: -.6%;
+        margin-left: -3.1%;
+        float: left;
+    }
+    
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 53%;
+        margin-left: 4%;
+    }
+    
+    .buttonText{
+        background-color: #47afff;
+        border-color: #47afff;
+        border-radius: .4rem;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .sendText{
+        margin-left: -10%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 25%;
+        margin-bottom: 1.5%;
+        margin-left: 15%;
+    }
+    
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80.1vh;
+        margin-top: -.8%;
+        margin-left: -4.2%;
+        float: left;
+    }
+    
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 69%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 50%;
+        margin-left: 4%;
+    }
+    
+    .buttonText{
+        background-color: #47afff;
+        border-color: #47afff;
+        border-radius: .4rem;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .sendText{
+        margin-left: -14%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .container{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 70%;
+        height: 80vh;
+        margin-top: 31%;
+        margin-bottom: 1.5%;
+        margin-left: 15%;
+    }
+    
+    .containerText{
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 40%;
+        height: 80.1vh;
+        margin-top: -1%;
+        margin-left: -5.4%;
+        float: left;
+    }
+    
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 73%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 46%;
+        margin-left: 4%;
+    }
+    
+    .buttonText{
+        background-color: #47afff;
+        border-color: #47afff;
+        border-radius: .4rem;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .sendText{
+        margin-left: -16%;
+    }
+}
