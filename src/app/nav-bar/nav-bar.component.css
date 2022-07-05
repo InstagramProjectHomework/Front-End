@@ -298,42 +298,42 @@ body {
   .house{
     position: fixed;
     margin-left: -15%;
-    margin-top: -1%;
+    margin-top: -2%;
     cursor: pointer;
   }
   
   .message{
     position: fixed;
     margin-left: -10%;
-    margin-top: -1%;
+    margin-top: -2%;
     cursor: pointer;
   }
   
   .squarePlus{
     position: fixed;
     margin-left: -5.5%;
-    margin-top: -1%;
+    margin-top: -2%;
     cursor: pointer;
   }
   
   .compass{
       position: fixed;
       margin-left: -1.5%;
-      margin-top: -1%;
+      margin-top: -2%;
       cursor: pointer;
   }
   
   .heart{
     position: fixed;
     margin-left: 3%;
-    margin-top: -1%;
+    margin-top: -2%;
     cursor: pointer;
   }
   
   .userCircle{
     position: fixed;
     margin-left: 7.5%;
-    margin-top: -1%;
+    margin-top: -2%;
     cursor: pointer;
   }
 }

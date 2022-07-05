@@ -16,15 +16,13 @@
         </div>
     </div>
     <div class="navigation-icons">
-        <fa-icon routerLink="MainPage" class="house" style="margin-left: 50%;" style="font-size: 150%;" [icon]="faHouse"></fa-icon>
-        <fa-icon class="message" style="margin-left: 50%;" style="font-size: 150%;" [icon]="faMessage"></fa-icon>
+        <fa-icon routerLink="/MainPage" class="house" style="margin-left: 50%;" style="font-size: 150%;" [icon]="faHouse"></fa-icon>
+        <fa-icon routerLink="/MessagesPage" class="message" style="margin-left: 50%;" style="font-size: 150%;" [icon]="faMessage"></fa-icon>
         <fa-icon class="squarePlus" style="margin-left: 50%;" style="font-size: 150%;" [icon]="faSquarePlus"></fa-icon>
         <fa-icon class="compass" style="margin-left: 300%;" style="font-size: 150%;" [icon]="faCompass"></fa-icon>
         <a class="navigation-link notifica">
             <fa-icon class="heart" style="margin-left: 70%;" style="font-size: 150%;" [icon]="faHeart"></fa-icon>
         </a>
-        <fa-icon routerLink="ProfilePage" class="userCircle" style="margin-left: 50%;" style="font-size: 150%;" [icon]="faUserCircle"></fa-icon>
+        <fa-icon routerLink="/ProfilePage" class="userCircle" style="margin-left: 50%;" style="font-size: 150%;" [icon]="faUserCircle"></fa-icon>
     </div>
 </div>
-
-<app-main-page></app-main-page>
