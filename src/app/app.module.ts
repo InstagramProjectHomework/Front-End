@@ -9,6 +9,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LoginComponent } from './login/login.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { MessagesPageComponent } from './messages-page/messages-page.component';
+import { RegisterPageComponent } from './register-page/register-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MessagesPageComponent } from './messages-page/messages-page.component';
     ProfilePageComponent,
     LoginComponent,
     MainPageComponent,
-    MessagesPageComponent
+    MessagesPageComponent,
+    RegisterPageComponent
   ],
   imports: [
     BrowserModule,
