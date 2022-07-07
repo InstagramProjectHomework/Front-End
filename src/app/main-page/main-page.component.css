@@ -47,7 +47,7 @@
         width: 50%;
         height: 51vh;
         margin-top: 8%;
-        margin-left: 35%;
+        margin-left: 42%;
         margin-bottom: 5%;
         padding: 1%;
     }
@@ -139,9 +139,9 @@
         border-style: solid;
         border-width: .1rem;
         width: 50%;
-        height: 77vh;
-        margin-top: 8%;
-        margin-left: 25%;
+        height: 82vh;
+        margin-top: 6%;
+        margin-left: 30%;
         margin-bottom: 5%;
     }
 
@@ -185,50 +185,8 @@
         border-style: solid;
         border-width: .1rem;
         width: 50%;
-        height: 88vh;
-        margin-top: 10%;
-        margin-left: 25%;
-        margin-bottom: 5%;
-    }
-
-    .Adjust {
-        margin-top: 2.5%;
-        margin-left: -3%;
-    }
-
-    .UserName {
-        margin-top: -8%;
-    }
-    
-    .UserAlias {
-        margin-top: -1.5%;
-    }
-    
-    .State {
-        margin-top: -1.5%;
-    }
-
-    .FollowButton {
-        background-color: #47afff;
-        border-color: #47afff;
-        border-radius: .4rem;
-        border-style: solid;
-        font-weight: bold;
-        color: white;
-        position: absolute;
-        margin-top: -4%;
-        margin-left: 44%;
-    }
-}
-
-@media only screen and (max-width: 1900px) {
-    .container {
-        border-color: gray;
-        border-style: solid;
-        border-width: .1rem;
-        width: 50%;
-        height: 110vh;
-        margin-top: 10%;
+        height: 115vh;
+        margin-top: 8%;
         margin-left: 25%;
         margin-bottom: 5%;
     }
@@ -258,7 +216,49 @@
         font-weight: bold;
         color: white;
         position: absolute;
-        margin-top: -4%;
+        margin-top: -4.5%;
+        margin-left: 44%;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    .container {
+        border-color: gray;
+        border-style: solid;
+        border-width: .1rem;
+        width: 50%;
+        height: 132vh;
+        margin-top: 10%;
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }
+
+    .Adjust {
+        margin-top: 1%;
+        margin-left: -3%;
+    }
+
+    .UserName {
+        margin-top: -8%;
+    }
+    
+    .UserAlias {
+        margin-top: -1.5%;
+    }
+    
+    .State {
+        margin-top: -1.5%;
+    }
+
+    .FollowButton {
+        background-color: #47afff;
+        border-color: #47afff;
+        border-radius: .4rem;
+        border-style: solid;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        margin-top: -5%;
         margin-left: 44%;
     }
 }
@@ -269,14 +269,14 @@
         border-style: solid;
         border-width: .1rem;
         width: 50%;
-        height: 115vh;
+        height: 137vh;
         margin-top: 10%;
         margin-left: 25%;
         margin-bottom: 5%;
     }
 
     .Adjust {
-        margin-top: 1%;
+        margin-top: 0%;
         margin-left: -2%;
     }
 
@@ -300,7 +300,7 @@
         font-weight: bold;
         color: white;
         position: absolute;
-        margin-top: -4%;
+        margin-top: -5.3%;
         margin-left: 44%;
     }
 }
@@ -627,7 +627,7 @@
         border-width: .1rem;
         width: 70%;
         height: 100%;
-        margin-top: 20%;
+        margin-top: 17%;
         margin-left: 19%;
     }
 
@@ -721,7 +721,7 @@
         border-width: .1rem;
         width: 80%;
         height: 100%;
-        margin-top: 28%;
+        margin-top: 19%;
         margin-left: 10%;
     }
 
@@ -754,6 +754,7 @@
         border-radius: .4rem;
         border-style: solid;
         font-weight: bold;
+        font-size: 1rem;
         color: white;
         position: absolute;
         margin-top: -22%;
@@ -768,7 +769,7 @@
         border-width: .1rem;
         width: 80%;
         height: 100%;
-        margin-top: 32%;
+        margin-top: 20%;
         margin-left: 10%;
     }
 
