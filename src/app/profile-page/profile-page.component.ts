@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faPenSquare } from '@fortawesome/free-solid-svg-icons';
+import { faComment } from '@fortawesome/free-solid-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -10,6 +12,8 @@ import { faPenSquare } from '@fortawesome/free-solid-svg-icons';
 export class ProfilePageComponent implements OnInit {
     
   faPenSquare = faPenSquare;
+  faComment = faComment;
+  faHeart = faHeart;
 
   constructor() { }
 
