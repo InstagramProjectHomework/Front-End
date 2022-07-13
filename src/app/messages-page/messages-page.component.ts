@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import { SwitchModalService } from '../Service/switch-modal.service';
 
 @Component({
   selector: 'app-messages-page',
@@ -8,11 +8,18 @@ import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 })
 export class MessagesPageComponent implements OnInit {
 
-  faPaperPlane = faPaperPlane;
+  public CommentsModal = false;
 
-  constructor() { }
+  constructor(public modalMessages: SwitchModalService) { }
 
   ngOnInit(): void {
+    this.modalMessages.$modalMessages.subscribe((value) => {
+      this.CommentsModal = value;
+    });
+  }
+
+  openCommentsModal() {
+    this.CommentsModal = true;
   }
 
 }

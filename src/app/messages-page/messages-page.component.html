@@ -1,19 +1,73 @@
 <app-nav-bar></app-nav-bar>
 <div class="container">
-    <div class="containerText">
-
-    </div>
-    <div class="text">
-        <div class="textSent">
-            <p>hola</p>
-            <p>hola</p>
-            <p>hola</p>
-            <p>hola</p>
-            <p>hola</p>
-            <p>hola</p>
-            <p>hola</p>
+    <div class="containerChats">
+        <div (click)="openCommentsModal()" class="ChatComponent">
+            <img class="Image" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
         </div>
-        <input class="inputText" type="text">
-        <fa-icon class="sendText" [icon]="faPaperPlane" type="submit"></fa-icon>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+        <div class="ChatComponent">
+            <img src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">UserName</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+    </div>
+    <div *ngIf="CommentsModal == true">
+        <app-comments-modal></app-comments-modal>
     </div>
 </div>
