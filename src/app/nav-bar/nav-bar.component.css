@@ -588,7 +588,7 @@ body {
   }
   .house{
     position: fixed;
-    margin-left: 15%;
+    margin-left: 14%;
     margin-top: -5.7%;
     font-size: 200% !important;
     cursor: pointer;
@@ -646,7 +646,7 @@ body {
   
   .house{
     position: fixed;
-    margin-left: 2%;
+    margin-left: 4%;
     margin-top: -6.8%;
     font-size: 200% !important;
     cursor: pointer;
@@ -654,7 +654,7 @@ body {
   
   .message{
     position: fixed;
-    margin-left: 18%;
+    margin-left: 20%;
     margin-top: -6.8%;
     font-size: 200% !important;
     cursor: pointer;
@@ -662,7 +662,7 @@ body {
   
   .squarePlus{
     position: fixed;
-    margin-left: 34%;
+    margin-left: 36%;
     margin-top: -6.8%;
     font-size: 200% !important;
     cursor: pointer;
@@ -670,7 +670,7 @@ body {
   
   .compass{
       position: fixed;
-      margin-left: 47%;
+      margin-left: 50%;
       margin-top: -6.8%;
       font-size: 200% !important;
       cursor: pointer;
@@ -678,7 +678,7 @@ body {
   
   .heart{
     position: fixed;
-    margin-left: 60.5%;
+    margin-left: 63.5%;
     margin-top: -6.8%;
     font-size: 200% !important;
     cursor: pointer;
@@ -686,7 +686,7 @@ body {
   
   .userCircle{
     position: fixed;
-    margin-left: 74%;
+    margin-left: 78%;
     margin-top: -6.8%;
     font-size: 200% !important;
     cursor: pointer;
