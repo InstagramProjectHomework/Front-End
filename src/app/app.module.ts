@@ -10,6 +10,9 @@ import { LoginComponent } from './login/login.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { MessagesPageComponent } from './messages-page/messages-page.component';
 import { RegisterPageComponent } from './register-page/register-page.component';
+import { FeedPageComponent } from './feed-page/feed-page.component';
+import { FeedModalComponent } from './feed-modal/feed-modal.component';
+import { CommentsModalComponent } from './comments-modal/comments-modal.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { RegisterPageComponent } from './register-page/register-page.component';
     LoginComponent,
     MainPageComponent,
     MessagesPageComponent,
-    RegisterPageComponent
+    RegisterPageComponent,
+    FeedPageComponent,
+    FeedModalComponent,
+    CommentsModalComponent
   ],
   imports: [
     BrowserModule,

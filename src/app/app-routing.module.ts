@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FeedPageComponent } from './feed-page/feed-page.component';
 import { LoginComponent } from './login/login.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { MessagesPageComponent } from './messages-page/messages-page.component';
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: "RegisterPage",
     component: RegisterPageComponent
+  },
+  {
+    path: "FeedPage",
+    component: FeedPageComponent
   }
 ];
 
