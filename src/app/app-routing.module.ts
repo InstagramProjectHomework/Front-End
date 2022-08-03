@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { FeedPageComponent } from './feed-page/feed-page.component';
 import { LoginComponent } from './login/login.component';
 import { MainPageComponent } from './main-page/main-page.component';
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: "FeedPage",
     component: FeedPageComponent
+  },
+  {
+    path: "EditProfile",
+    component: EditProfileComponent
   }
 ];
 

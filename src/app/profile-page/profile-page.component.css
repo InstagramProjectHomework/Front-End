@@ -6,6 +6,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+
 }
 
 body {
@@ -14,6 +15,7 @@ body {
     background-color: #fafafa;
     color: #262626;
     padding-bottom: 3rem;
+    display: flex;
 }
 
 img {
@@ -21,9 +23,7 @@ img {
 }
 
 .container {
-    max-width: 93.5rem;
     margin: 0 auto;
-    padding: 0 2rem;
 }
 
 .btn {
@@ -101,6 +101,12 @@ img {
 .profile-settings-btn {
     font-size: 2rem;
     margin-left: 1rem;
+
+}
+.out-btn{
+    font-size: 2rem;
+    margin-left: 1rem;
+    width: 0px;
 }
 
 .profile-stats {
@@ -208,13 +214,18 @@ img {
 
 /* Media Query */
 
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: 768px) {
     .profile {
         display: flex;
-        flex-wrap: wrap;
-        padding: 4rem 0;
+        z-index: 999;
+        width: 73vw;
+        height: 100%;
+        background: #fff;
+        top: 0;
+        left: -100vw;
+        float: none;
+        transition: .25s ease-in-out;
     }
-
     .profile::after {
         display: none;
     }
@@ -243,14 +254,25 @@ img {
     }
 
     .profile-edit-btn {
-        order: 1;
+        order: 0;
         padding: 0;
         text-align: center;
         margin-top: 1rem;
     }
+    .profile-settings-btn {
+        font-size: 2rem;
+        margin-left: 1rem;
+        width: 0px;
+    
+    }
+    .out-btn{
+        font-size: 2rem;
+        margin-left: -7rem;
+        width: 0px;
+    }
 
     .profile-edit-btn {
-        margin-left: 0;
+        margin-left: 0rem;
     }
 
     .profile-bio {
@@ -297,11 +319,8 @@ img {
 }
 
 /*
-
 The following code will only run if your browser supports CSS grid.
-
 Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling. 
-
 */
 
 @supports (display: grid) {

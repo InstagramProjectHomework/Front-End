@@ -13,6 +13,7 @@ import { RegisterPageComponent } from './register-page/register-page.component';
 import { FeedPageComponent } from './feed-page/feed-page.component';
 import { FeedModalComponent } from './feed-modal/feed-modal.component';
 import { CommentsModalComponent } from './comments-modal/comments-modal.component';
+import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CommentsModalComponent } from './comments-modal/comments-modal.componen
     RegisterPageComponent,
     FeedPageComponent,
     FeedModalComponent,
-    CommentsModalComponent
+    CommentsModalComponent,
+    EditProfileComponent
   ],
   imports: [
     BrowserModule,
