@@ -9,5 +9,6 @@ export class SwitchModalService {
 
   $modal = new EventEmitter<any>();
   $modalMessages = new EventEmitter<any>();
+  $postModal = new EventEmitter<any>();
 
 }

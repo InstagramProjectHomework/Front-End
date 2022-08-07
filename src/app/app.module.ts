@@ -14,6 +14,8 @@ import { FeedPageComponent } from './feed-page/feed-page.component';
 import { FeedModalComponent } from './feed-modal/feed-modal.component';
 import { CommentsModalComponent } from './comments-modal/comments-modal.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
+import { PostDescriptionComponent } from './post-description/post-description.component';
+import { Error404Component } from './error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
     FeedPageComponent,
     FeedModalComponent,
     CommentsModalComponent,
-    EditProfileComponent
+    EditProfileComponent,
+    PostDescriptionComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,

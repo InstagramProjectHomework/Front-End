@@ -6,6 +6,7 @@ import { faSignOut } from '@fortawesome/free-solid-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faSquarePlus } from '@fortawesome/free-solid-svg-icons';
 import { faMessage } from '@fortawesome/free-solid-svg-icons';
+import { SwitchModalService } from '../Service/switch-modal.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -21,10 +22,18 @@ export class NavBarComponent implements OnInit {
   faHouse = faHouse;
   faSquarePlus = faSquarePlus;
   faMessage = faMessage;
+  public Post = false;
 
-  constructor() { }
+  constructor(public PostModal: SwitchModalService) { }
 
   ngOnInit(): void {
+    this.PostModal.$postModal.subscribe((val) => {
+      this.Post = val;
+    });
+  }
+
+  openPostModal() {
+    this.Post = true;
   }
 
 }

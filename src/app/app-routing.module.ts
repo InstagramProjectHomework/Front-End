@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
+import { Error404Component } from './error404/error404.component';
 import { FeedPageComponent } from './feed-page/feed-page.component';
 import { LoginComponent } from './login/login.component';
 import { MainPageComponent } from './main-page/main-page.component';
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: "EditProfile",
     component: EditProfileComponent
+  },
+  {
+    path: "**",
+    component: Error404Component
   }
 ];
 
