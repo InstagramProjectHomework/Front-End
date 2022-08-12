@@ -17,7 +17,7 @@ a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 15%;
   font-size: 14px;
 }
 
@@ -101,9 +101,18 @@ input:not(:placeholder-shown) {
   padding-bottom: 2px;
 }
 
+.TextLogin{
+  font-size: medium;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
 .login-button {
   text-align: center;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 5%;
   padding: 0.5rem;
   border: 1px solid transparent;
   background-color: #3897f0;

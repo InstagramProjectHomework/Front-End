@@ -17,8 +17,8 @@
 
 				<button class="btn profile-edit-btn" routerLink="/EditProfile">Edit Profile</button>
 
-				<button routerLink="" class="btn profile-settings-btn" aria-label="profile settings"><fa-icon style="margin-top: 100%;" [icon]="faRightFromBracket"></fa-icon></button>
-
+				<button (click)="auth.logout({ returnTo: document.location.origin })" class="btn profile-settings-btn" aria-label="profile settings"><fa-icon style="margin-top: 100%;" [icon]="faRightFromBracket"></fa-icon></button>
+				
 			</div>
 
 			<div class="profile-stats">
