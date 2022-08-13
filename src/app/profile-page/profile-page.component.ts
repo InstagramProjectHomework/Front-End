@@ -2,7 +2,6 @@ import { Component, OnInit, Inject } from '@angular/core';
 import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 import { faComment } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
-import { AuthService } from '@auth0/auth0-angular';
 import { DOCUMENT } from '@angular/common';
 import { SwitchModalService } from '../Service/switch-modal.service';
 
@@ -17,7 +16,7 @@ export class ProfilePageComponent implements OnInit {
   faComment = faComment;
   faHeart = faHeart;
 
-  constructor(@Inject(DOCUMENT) public document: Document, public auth: AuthService, public sesionVariableReset: SwitchModalService) { }
+  constructor(@Inject(DOCUMENT) public document: Document, public sesionVariableReset: SwitchModalService) { }
 
   ngOnInit(): void {
   }

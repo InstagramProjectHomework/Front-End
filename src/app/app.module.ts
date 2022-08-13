@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-// Import the module from the SDK
-import { AuthModule } from '@auth0/auth0-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +17,8 @@ import { CommentsModalComponent } from './comments-modal/comments-modal.componen
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { PostDescriptionComponent } from './post-description/post-description.component';
 import { Error404Component } from './error404/error404.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -40,10 +40,9 @@ import { Error404Component } from './error404/error404.component';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    AuthModule.forRoot({
-      domain: 'dev-l42-bmyd.us.auth0.com',
-      clientId: 'UPxMdlA8ahfcDLn7JmLn0VXRFbCd6sF6'
-    }),
+    FormsModule,
+    HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
