@@ -19,6 +19,7 @@ import { PostDescriptionComponent } from './post-description/post-description.co
 import { Error404Component } from './error404/error404.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import {ToastrModule, ToastrService} from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,7 @@ import { HttpClientModule } from '@angular/common/http';
     FontAwesomeModule,
     FormsModule,
     HttpClientModule,
-
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

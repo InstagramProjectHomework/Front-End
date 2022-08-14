@@ -18,8 +18,6 @@ export class LoginComponent implements OnInit {
     this.authService.logUser(this.email, this.password)
   }
 
-
-
   ngOnInit(): void {
   }
 

@@ -3,11 +3,11 @@
         <div class="heading"></div>
         <form class="login-form" (ngSubmit)="login()">
             <div class="field">
-                <input id="username" type="name" placeholder="email"/>
-                <label>Phone number, username, or email</label>
+                <input id="email" [(ngModel)]="email" type="name" name="email" placeholder="example@example.com"/>
+                <label>Email</label>
             </div>
             <div class="field">
-                <input id="password" type="password" placeholder="password" />
+                <input id="password" type="password" [(ngModel)]="password" name="password" placeholder="Password" />
                 <label>Password</label>
             </div>
 
