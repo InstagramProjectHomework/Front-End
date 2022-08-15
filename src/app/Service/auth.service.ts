@@ -44,6 +44,7 @@ export class AuthService {
     this.cookie.delete('login');
     this.http.get(this.localURL + '/api/logout').subscribe((resp: any) => {
       this.toastr.success(resp);
+      this.router.navigate(['']);
     });
   }
 
