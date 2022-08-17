@@ -10,13 +10,15 @@
 
       </div>
       <div class="container">
-        <form action="">
+        <form action="submit"
+        [formGroup]="userData"
+        (submit)="updateUser(userData.value)">
             <label>User name</label>
-          <input type="text" placeholder="">
+          <input type="text" id="username" [placeholder]="user.username" formControlName="username">
           <label>Full name</label>
-          <input type="text" placeholder="">
+          <input type="text" id="fullname" [placeholder]="user.fullname" formControlName="fullname">
           <label>E-mail</label>
-          <input type="email" placeholder="">
+          <input type="email" id="email" [placeholder]="user.email" formControlName="email">
 
           <label>Gender</label>
           <select name="gender" id="gender">
@@ -26,11 +28,11 @@
           </select>
 
           <label>Bio</label>
-          <input type="text" placeholder="">
+          <input type="text" id="bio" [placeholder]="user.bio" formControlName="bio">
           
           
           <button id="BtnBack" routerLink="/ProfilePage" >Back</button>
-          <button routerLink="/ProfilePage" >Save!</button>
+          <button  type="submit" >Save!</button>
         </form>
       </div>
     </div>

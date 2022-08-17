@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from '../interfaces/user.interface';
+import { environment } from 'src/environments/environment';
+import { HttpClient } from '@angular/common/http';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-main-page',
@@ -7,7 +11,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent implements OnInit {
 
-  constructor() { }
+  private readonly localURL = `${environment.localUrl}`;
+  user: User | any;
+
+  userData = this.formBuilder.group({
+    userphoto: '',
+    username: '',
+    followernumber: '',
+    followingnumber: ''
+  })
+
+  constructor(private httpClient: HttpClient, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
   }

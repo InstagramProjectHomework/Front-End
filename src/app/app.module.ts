@@ -17,7 +17,7 @@ import { CommentsModalComponent } from './comments-modal/comments-modal.componen
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { PostDescriptionComponent } from './post-description/post-description.component';
 import { Error404Component } from './error404/error404.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import {ToastrModule, ToastrService} from 'ngx-toastr';
 
@@ -42,6 +42,7 @@ import {ToastrModule, ToastrService} from 'ngx-toastr';
     AppRoutingModule,
     FontAwesomeModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
     ToastrModule.forRoot()
   ],
