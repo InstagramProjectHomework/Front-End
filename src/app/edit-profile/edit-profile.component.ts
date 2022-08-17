@@ -34,7 +34,7 @@ export class EditProfileComponent implements OnInit {
           username: update.username || this.user.username,
           fullname: update.fullname || this.user.fullname,
           email: update.email || this.user.email,
-          bio: update.phone || this.user.bio,
+          bio: update.bio || this.user.bio,
         },
         { withCredentials: true }
       )

@@ -12,7 +12,7 @@ import { FormBuilder } from '@angular/forms';
 export class MainPageComponent implements OnInit {
 
   private readonly localURL = `${environment.localUrl}`;
-  user: User | any;
+  users: User | any;
 
   userData = this.formBuilder.group({
     userphoto: '',
@@ -21,9 +21,26 @@ export class MainPageComponent implements OnInit {
     followingnumber: ''
   })
 
-  constructor(private httpClient: HttpClient, private formBuilder: FormBuilder) { }
+  constructor(private http: HttpClient, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
+    this.getUser();
   }
 
+  async getUser() {
+    await this.http
+      .get(this.localURL + '/api/login', { withCredentials: true })
+      .subscribe((res: any) => {
+        this.users = res.user;
+        this.list(this.users._id);
+      });
+  }
+
+  async list(user_id: any) {
+    await this.http.get(this.localURL + `/api/user/getallusers/${user_id}`, { withCredentials: true })
+      .subscribe((res: any) => {
+        console.log(res);
+        this.users = res.users;
+      });
+  }
 }
