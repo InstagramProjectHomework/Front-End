@@ -1,0 +1,878 @@
+.text{
+    margin-left: 15%;
+}
+
+.inputText{
+    width: 65%;
+    margin-top: 62%;
+    border-style: solid;
+    border-radius: 1rem;
+    padding-left: 1%;
+    margin-top: 60%;
+    margin-left: 4%;
+}
+
+.sendText{
+    margin-left: -4%;
+}
+
+.textSent{
+    width: 40%;
+    height: 66%;
+    overflow-y: scroll;
+    margin-top: 2%;
+    margin-left: 18%;
+    position: absolute;
+}
+
+.textSent::-webkit-scrollbar{
+    width: 1%;
+}
+
+.TestAsk{
+    background-color: #42C2FF;
+    border-radius: .5rem;
+    padding: 1%;
+}
+
+.TestAnswer{
+    background-color: #42C2FF;
+    text-align: right;
+    border-radius: .5rem;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 5500px) {
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 210%;
+        margin-left: 4%;
+    }
+    
+    .textSent{
+        width: 11.5%;
+        height: 66%;
+        overflow-y: scroll;
+        margin-top: 1%;
+        margin-left: 5.5%;
+        position: absolute;
+    }
+
+    .GoBack{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 4100px) {
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 156%;
+        margin-left: 4%;
+    }
+
+    .textSent{
+        width: 16%;
+        height: 66%;
+        overflow-y: scroll;
+        margin-top: 1%;
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .GoBack{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 2800px) {
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 102%;
+        margin-left: 4%;
+    }
+
+    .textSent{
+        width: 24%;
+        height: 66%;
+        overflow-y: scroll;
+        margin-top: 2%;
+        margin-left: 10.5%;
+        position: absolute;
+    }
+
+    .GoBack{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 2100px) {
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 75%;
+        margin-left: 4%;
+    }
+
+    .textSent{
+        width: 32%;
+        height: 66%;
+        overflow-y: scroll;
+        margin-top: 2%;
+        margin-left: 14%;
+        position: absolute;
+    }
+
+    .GoBack{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 67%;
+        margin-left: 4%;
+    }
+
+    .textSent{
+        width: 36%;
+        height: 66%;
+        overflow-y: scroll;
+        margin-top: 2%;
+        margin-left: 16%;
+        position: absolute;
+    }
+
+    .GoBack{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 63%;
+        margin-left: 4%;
+    }
+
+    .textSent{
+        width: 38%;
+        height: 66%;
+        overflow-y: scroll;
+        margin-top: 2%;
+        margin-left: 17%;
+        position: absolute;
+    }
+
+    .GoBack{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1700px) {
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 60%;
+        margin-left: 4%;
+    }
+    
+    .sendText{
+        margin-left: -4%;
+    }
+
+    .textSent{
+        width: 40%;
+        height: 66%;
+        overflow-y: scroll;
+        margin-top: 2%;
+        margin-left: 17.8%;
+        position: absolute;
+    }
+
+    .GoBack{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 59%;
+        margin-left: 4%;
+    }
+    
+    .sendText{
+        margin-left: -5%;
+    }
+    
+    .textSent{
+        width: 38%;
+        height: 64%;
+        overflow-y: scroll;
+        margin-top: 2%;
+        margin-left: 18.5%;
+        position: absolute;
+    }
+
+    .GoBack{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 59%;
+        margin-left: 4%;
+    }
+    
+    .sendText{
+        margin-left: -6%;
+    }
+
+    .GoBack{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .text{
+        margin-left: 15%;
+    }
+    
+    .inputText{
+        width: 65%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 58%;
+        margin-left: 4%;
+    }
+    
+    .sendText{
+        margin-left: -6%;
+    }
+}
+
+@media only screen and (max-width: 820px) and (max-height: 1180px){
+    .text{
+        background-color: white;
+        position: absolute;
+        width: 80%;
+        height: 85%;
+        margin-top: -6%;
+        margin-left: -10%;
+        border: .1rem;
+        border-color: gray;
+        border-style: solid;
+    }
+    
+    .GoBack{
+        display: block;
+        font-size: 2rem;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .inputText{
+        width: 85%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 145%;
+        margin-left: -3%;
+    }
+    
+    .sendText{
+        margin-left: -5%;
+    }
+
+    .textSent{
+        width: 85%;
+        height: 84%;
+        overflow-y: scroll;
+        margin-top: 10%;
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .TestAsk{
+        background-color: #42C2FF;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+    
+    .TestAnswer{
+        background-color: #42C2FF;
+        text-align: right;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (max-height: 1024px){
+    .text{
+        background-color: white;
+        position: absolute;
+        width: 80%;
+        height: 85%;
+        margin-top: -6%;
+        margin-left: -10%;
+        border: .1rem;
+        border-color: gray;
+        border-style: solid;
+    }
+    
+    .GoBack{
+        display: block;
+        font-size: 2rem;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .inputText{
+        width: 85%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 132.5%;
+        margin-left: -3%;
+    }
+    
+    .sendText{
+        margin-left: -5%;
+    }
+
+    .textSent{
+        width: 85%;
+        height: 84%;
+        overflow-y: scroll;
+        margin-top: 10%;
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .TestAsk{
+        background-color: #42C2FF;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+    
+    .TestAnswer{
+        background-color: #42C2FF;
+        text-align: right;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 540px) and (max-height: 720px){
+    .text{
+        background-color: white;
+        position: absolute;
+        width: 80%;
+        height: 85%;
+        margin-top: -6%;
+        margin-left: -10%;
+        border: .1rem;
+        border-color: gray;
+        border-style: solid;
+    }
+    
+    .GoBack{
+        display: block;
+        font-size: 2rem;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .inputText{
+        width: 85%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 132.5%;
+        margin-left: -4%;
+    }
+    
+    .sendText{
+        margin-left: -5%;
+    }
+
+    .textSent{
+        width: 85%;
+        height: 84%;
+        overflow-y: scroll;
+        margin-top: 10%;
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .TestAsk{
+        background-color: #42C2FF;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+    
+    .TestAnswer{
+        background-color: #42C2FF;
+        text-align: right;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 414px) and (max-height: 896px){
+    .text{
+        background-color: white;
+        position: absolute;
+        width: 80%;
+        height: 89%;
+        margin-top: -2%;
+        margin-left: -10%;
+        border: .1rem;
+        border-color: gray;
+        border-style: solid;
+    }
+    
+    .GoBack{
+        display: block;
+        font-size: 1.5rem;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .inputText{
+        width: 85%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 228%;
+        margin-left: -4%;
+    }
+    
+    .sendText{
+        margin-left: -11%;
+    }
+
+    .textSent{
+        width: 85%;
+        height: 87%;
+        overflow-y: scroll;
+        margin-top: 12%;
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .TestAsk{
+        background-color: #42C2FF;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+    
+    .TestAnswer{
+        background-color: #42C2FF;
+        text-align: right;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 412px) and (max-height: 915px){
+    .text{
+        background-color: white;
+        position: absolute;
+        width: 80%;
+        height: 89%;
+        margin-top: -2%;
+        margin-left: -10%;
+        border: .1rem;
+        border-color: gray;
+        border-style: solid;
+    }
+    
+    .GoBack{
+        display: block;
+        font-size: 1.5rem;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .inputText{
+        width: 85%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 230%;
+        margin-left: -4.5%;
+    }
+    
+    .sendText{
+        margin-left: -11%;
+    }
+
+    .textSent{
+        width: 85%;
+        height: 84%;
+        overflow-y: scroll;
+        margin-top: 14%;
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .TestAsk{
+        background-color: #42C2FF;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+    
+    .TestAnswer{
+        background-color: #42C2FF;
+        text-align: right;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 393px) and (max-height: 851px){
+    .text{
+        background-color: white;
+        position: absolute;
+        width: 80%;
+        height: 89%;
+        margin-top: -.5%;
+        margin-left: -10%;
+        border: .1rem;
+        border-color: gray;
+        border-style: solid;
+    }
+    
+    .GoBack{
+        display: block;
+        font-size: 1.5rem;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .inputText{
+        width: 85%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 228%;
+        margin-left: -4%;
+    }
+    
+    .sendText{
+        margin-left: -11%;
+    }
+
+    .textSent{
+        width: 85%;
+        height: 87%;
+        overflow-y: scroll;
+        margin-top: 12%;
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .TestAsk{
+        background-color: #42C2FF;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+    
+    .TestAnswer{
+        background-color: #42C2FF;
+        text-align: right;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 390px) and (max-height: 844px){
+    .text{
+        background-color: white;
+        position: absolute;
+        width: 80%;
+        height: 89%;
+        margin-top: -.5%;
+        margin-left: -10%;
+        border: .1rem;
+        border-color: gray;
+        border-style: solid;
+    }
+    
+    .GoBack{
+        display: block;
+        font-size: 1.5rem;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .inputText{
+        width: 85%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 228%;
+        margin-left: -4%;
+    }
+    
+    .sendText{
+        margin-left: -11%;
+    }
+
+    .textSent{
+        width: 85%;
+        height: 87%;
+        overflow-y: scroll;
+        margin-top: 12%;
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .TestAsk{
+        background-color: #42C2FF;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+    
+    .TestAnswer{
+        background-color: #42C2FF;
+        text-align: right;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 667px){
+    .text{
+        background-color: white;
+        position: absolute;
+        width: 80%;
+        height: 90%;
+        margin-top: -2%;
+        margin-left: -10%;
+        border: .1rem;
+        border-color: gray;
+        border-style: solid;
+    }
+    
+    .GoBack{
+        display: block;
+        font-size: 1rem;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .inputText{
+        width: 85%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 180%;
+        margin-left: -2%;
+    }
+    
+    .sendText{
+        margin-left: -11%;
+    }
+
+    .textSent{
+        width: 85%;
+        height: 80%;
+        overflow-y: scroll;
+        margin-top: 10%;
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .TestAsk{
+        background-color: #42C2FF;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+    
+    .TestAnswer{
+        background-color: #42C2FF;
+        text-align: right;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 740px){
+    .text{
+        background-color: white;
+        position: absolute;
+        width: 80%;
+        height: 89%;
+        margin-top: -2%;
+        margin-left: -10%;
+        border: .1rem;
+        border-color: gray;
+        border-style: solid;
+    }
+    
+    .GoBack{
+        display: block;
+        font-size: 1.5rem;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .inputText{
+        width: 85%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 215%;
+        margin-left: -6%;
+    }
+    
+    .sendText{
+        margin-left: -11%;
+    }
+
+    .textSent{
+        width: 85%;
+        height: 84%;
+        overflow-y: scroll;
+        margin-top: 14%;
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .TestAsk{
+        background-color: #42C2FF;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+    
+    .TestAnswer{
+        background-color: #42C2FF;
+        text-align: right;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 280px) and (max-height: 653px){
+    .text{
+        background-color: white;
+        position: absolute;
+        width: 80%;
+        height: 89%;
+        margin-top: -2%;
+        margin-left: -10%;
+        border: .1rem;
+        border-color: gray;
+        border-style: solid;
+    }
+    
+    .GoBack{
+        display: block;
+        font-size: 1.5rem;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .inputText{
+        width: 85%;
+        margin-top: 62%;
+        border-style: solid;
+        border-radius: 1rem;
+        padding-left: 1%;
+        margin-top: 242%;
+        margin-left: -6%;
+    }
+    
+    .sendText{
+        margin-left: -11%;
+    }
+
+    .textSent{
+        width: 85%;
+        height: 84%;
+        overflow-y: scroll;
+        margin-top: 16%;
+        margin-left: 7%;
+        position: absolute;
+    }
+
+    .TestAsk{
+        background-color: #42C2FF;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+    
+    .TestAnswer{
+        background-color: #42C2FF;
+        text-align: right;
+        border-radius: .5rem;
+        padding: 2%;
+    }
+}

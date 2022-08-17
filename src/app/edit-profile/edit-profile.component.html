@@ -1,0 +1,37 @@
+<main>
+    <div class="page">
+      <div class="header">
+        <h1>Edit profile</h1>
+
+        <img class="ImageCollocation" src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="User Avatar" class="img-size-75 ml-3 mt-3 img-circle">
+        <div class="Adjust">
+            <button  class="ProfilePic">Edit profile picture</button>
+        </div>
+
+      </div>
+      <div class="container">
+        <form action="">
+            <label>User name</label>
+          <input type="text" placeholder="">
+          <label>Full name</label>
+          <input type="text" placeholder="">
+          <label>E-mail</label>
+          <input type="email" placeholder="">
+
+          <label>Gender</label>
+          <select name="gender" id="gender">
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="o">Other</option>
+          </select>
+
+          <label>Bio</label>
+          <input type="text" placeholder="">
+          
+          
+          <button id="BtnBack" routerLink="/ProfilePage" >Back</button>
+          <button routerLink="/ProfilePage" >Save!</button>
+        </form>
+      </div>
+    </div>
+  </main>

@@ -1,0 +1,19 @@
+<main>
+  <div class="page">
+    <div class="header">
+      <h1 class="logo">GraphLite</h1>
+    </div>
+    <div class="container">
+      <form (ngSubmit)="register()">
+        <input type="text" [(ngModel)]="email" name="email" placeholder="Email">
+        <input type="text" [(ngModel)]="fullname" name="fullname" placeholder="Full"  placeholder="Full Name">
+        <input type="text" [(ngModel)]="username" name="username" placeholder="Username" placeholder="Username">
+        <input type="password" [(ngModel)]="password" name="password" placeholder="Password" placeholder="Password">
+        <button type="submit">Sign up</button>
+      </form>
+    </div>
+  </div>
+  <div class="option">
+    <p>Have an account? <a href="">Log in</a></p>
+  </div>
+</main>
