@@ -6,11 +6,11 @@ import { faSignOut } from '@fortawesome/free-solid-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faSquarePlus } from '@fortawesome/free-solid-svg-icons';
 import { faMessage } from '@fortawesome/free-solid-svg-icons';
-import { SwitchModalService } from '../Service/switch-modal.service';
 import {AuthService} from 'src/app/Service/auth.service';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
-
+import { MatDialog } from '@angular/material/dialog';
+import { PostDescriptionComponent } from '../post-description/post-description.component';
 
 
 
@@ -30,7 +30,7 @@ export class NavBarComponent implements OnInit {
   faMessage = faMessage;
   public Post = false;
 
-  constructor(public PostModal: SwitchModalService,
+  constructor(public Modal: MatDialog,
     private authService: AuthService,
     private router: Router,
     private toastr: ToastrService
@@ -41,13 +41,11 @@ export class NavBarComponent implements OnInit {
       this.router.navigate(['']);
       this.toastr.warning('You must be logged in to continue.','Not logged in yet.');
     }
-    this.PostModal.$postModal.subscribe((val) => {
-      this.Post = val;
-    });
   }
 
+
   openPostModal() {
-    this.Post = true;
+    this.Modal.open(PostDescriptionComponent);
   }
 
     logout() {
