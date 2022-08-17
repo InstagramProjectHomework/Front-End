@@ -48,7 +48,22 @@
 
 	<div class="container">
 
-		<div class="gallery">
+    <div class="gallery">
+
+      <div *ngFor="let itemPosts of postData" class="gallery-item" tabindex="0">
+
+          <img src="{{itemPosts.photolink}}" class="gallery-image" alt="">
+
+          <div class="gallery-item-info">
+
+            <ul>
+              <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><fa-icon style="margin-top: 100%;" [icon]="faHeart"></fa-icon> {{itemPosts.likenumber}}</li>
+              <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><fa-icon style="margin-top: 100%;" [icon]="faComment"></fa-icon> {{itemPosts.commentnumber}}</li>
+            </ul>
+
+          </div>
+
+        </div>
 
 			<div class="gallery-item" tabindex="0">
 
