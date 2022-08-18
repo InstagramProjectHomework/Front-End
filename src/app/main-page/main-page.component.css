@@ -8,6 +8,14 @@
     margin-left: 25%;
     margin-bottom: 5%;
 }
+.container2 {
+    margin-bottom: 50px;
+}
+.ImageCollocation {
+    height: 3rem;
+    width: 3rem;
+    border-radius:1.5rem;
+}
 
 .UserName {
     margin-top: -8%;

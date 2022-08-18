@@ -3,6 +3,7 @@ import { User } from '../interfaces/user.interface';
 import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { FormBuilder } from '@angular/forms';
+import { UserInfo } from '../interfaces/userInfo.interface';
 
 @Component({
   selector: 'app-main-page',
@@ -13,6 +14,7 @@ export class MainPageComponent implements OnInit {
 
   private readonly localURL = `${environment.localUrl}`;
   users: User | any;
+  usersInfo: UserInfo | any;
 
   userData = this.formBuilder.group({
     userphoto: '',
@@ -25,6 +27,7 @@ export class MainPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.getUser();
+    
   }
 
   async getUser() {
@@ -37,10 +40,10 @@ export class MainPageComponent implements OnInit {
   }
 
   async list(user_id: any) {
-    await this.http.get(this.localURL + `/api/user/getallusers/${user_id}`, { withCredentials: true })
+     await this.http.get(this.localURL + `/api/user/getallusers/${user_id}`, { withCredentials: true })
       .subscribe((res: any) => {
-        console.log(res);
-        this.users = res.users;
+        this.usersInfo = res;
+        console.log(this.usersInfo);
       });
   }
 }
