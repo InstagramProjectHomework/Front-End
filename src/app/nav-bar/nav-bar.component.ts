@@ -6,13 +6,7 @@ import { faSignOut } from '@fortawesome/free-solid-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faSquarePlus } from '@fortawesome/free-solid-svg-icons';
 import { faMessage } from '@fortawesome/free-solid-svg-icons';
-import {AuthService} from 'src/app/Service/auth.service';
-import { Router } from '@angular/router';
-import { ToastrService } from 'ngx-toastr';
-import { MatDialog } from '@angular/material/dialog';
-import { PostDescriptionComponent } from '../post-description/post-description.component';
-
-
+import { SwitchModalService } from '../Service/switch-modal.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -20,7 +14,7 @@ import { PostDescriptionComponent } from '../post-description/post-description.c
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
-
+  
   faCompass = faCompass;
   faHeart = faHeart;
   faUserCircle = faUserCircle;
@@ -30,26 +24,16 @@ export class NavBarComponent implements OnInit {
   faMessage = faMessage;
   public Post = false;
 
-  constructor(public Modal: MatDialog,
-    private authService: AuthService,
-    private router: Router,
-    private toastr: ToastrService
-    ) { }
+  constructor(public PostModal: SwitchModalService) { }
 
   ngOnInit(): void {
-    if(!this.authService.logIn){
-      this.router.navigate(['']);
-      this.toastr.warning('You must be logged in to continue.','Not logged in yet.');
-    }
+    this.PostModal.$postModal.subscribe((val) => {
+      this.Post = val;
+    });
   }
-
 
   openPostModal() {
-    this.Modal.open(PostDescriptionComponent);
+    this.Post = true;
   }
 
-    logout() {
-    this.authService.logOut();
-    }
-  }
-
+}

@@ -1,39 +1,17 @@
-<div class="content">
-  <div class="head">
-    <h2 class="title">New Post</h2>
-    <h5 class="share" (click)="closePostModal()">Share</h5>
-  </div>
-  <div class="profile">
-    <img
-      class="ImageCollocation"
-      src="../../assets/img/user1-128x128.jpg"
-      alt="User Avatar"
-      class="img-size-50 ml-3 mt-3 img-circle"
-    />
-    <h5 class="DescriptionUsername">Username</h5>
-  </div>
-  <br>
-  <div>
-    <label for="image_uploads">Choose images to upload (PNG, JPG)</label>
-    <br />
-    <input
-      #imageInput
-      type="file"
-      id="image_uploads"
-      name="image_uploads"
-      accept="image/*"
-    />
-  </div>
-  <br />
-  <div class="textContent">
-    <textarea
-      class="TextArea"
-      placeholder="Write a description"
-      maxlength="180"
-      name=""
-      id=""
-      cols="30"
-      rows="5"
-    ></textarea>
-  </div>
+<div class="DescriptionPostBackground">
+    <div class="container">
+        <div class="ButtonsContainer">
+            <h5 (click)="closePostModal()" class="ClosePostX">X</h5>
+            <h5 class="CreatePostText">Create a New Post</h5>
+            <h5 class="SharePostText">Share</h5>
+        </div>
+        <div class="DescriptionImageContainer">
+            <img class="DescriptionImage" src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" alt="">
+        </div>
+        <div class="DescriptionContainer">
+            <img class="ImageCollocation" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-3 img-circle">
+            <h5 class="DescriptionUsername">Username</h5>
+            <textarea class="TextArea" placeholder="Write a description" maxlength="180" name="" id="" cols="30" rows="5"></textarea>
+        </div>
+    </div>
 </div>
