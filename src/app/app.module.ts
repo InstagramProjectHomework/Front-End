@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ProfilePageComponent } from './profile-page/profile-page.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LoginComponent } from './login/login.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { MessagesPageComponent } from './messages-page/messages-page.component';
@@ -17,10 +16,14 @@ import { CommentsModalComponent } from './comments-modal/comments-modal.componen
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { PostDescriptionComponent } from './post-description/post-description.component';
 import { Error404Component } from './error404/error404.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import {ToastrModule, ToastrService} from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { MatDialogModule } from '@angular/material/dialog';
+
 
 @NgModule({
   declarations: [
@@ -44,8 +47,11 @@ import { WelcomeComponent } from './welcome/welcome.component';
     AppRoutingModule,
     FontAwesomeModule,
     FormsModule,
+    ReactiveFormsModule,
+    MatDialogModule,
+    BrowserAnimationsModule,
     HttpClientModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
+import { ToastrService } from 'ngx-toastr';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,8 @@ export class ApiService {
     }
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private toastr: ToastrService,
     ) { }
 
     public getUserPosts(){
@@ -52,4 +54,16 @@ export class ApiService {
 
     }
 
+    public createPost(photolink : string, description : string){
+
+      this.http.post(this.localURL+ '/api/post',
+      {photolink:photolink, description:description},
+      {withCredentials: true,}).subscribe((response) => {
+        this.toastr.success('Post created successfully!');
+
+      },(err: Error) => {
+        if(err) return this.toastr.error('Post not created.', 'Error while creating post.');
+      });
+
+    }
 }

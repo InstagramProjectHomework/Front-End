@@ -10,8 +10,8 @@ import { SwitchModalService } from '../Service/switch-modal.service';
 import {AuthService} from 'src/app/Service/auth.service';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
-
-
+import { MatDialog } from '@angular/material/dialog';
+import { PostDescriptionComponent } from '../post-description/post-description.component';
 
 
 @Component({
@@ -30,10 +30,11 @@ export class NavBarComponent implements OnInit {
   faMessage = faMessage;
   public Post = false;
 
-  constructor(public PostModal: SwitchModalService,
+  constructor(
     private authService: AuthService,
     private router: Router,
-    private toastr: ToastrService
+    private toastr: ToastrService,
+    public Modal: MatDialog,
     ) { }
 
   ngOnInit(): void {
@@ -41,13 +42,10 @@ export class NavBarComponent implements OnInit {
       this.router.navigate(['']);
       this.toastr.warning('You must be logged in to continue.','Not logged in yet.');
     }
-    this.PostModal.$postModal.subscribe((val) => {
-      this.Post = val;
-    });
   }
 
   openPostModal() {
-    this.Post = true;
+    this.Modal.open(PostDescriptionComponent);
   }
 
     logout() {
