@@ -4,24 +4,23 @@
       <h1>Edit profile</h1>
 
       <img class="ImageCollocation" src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="User Avatar" class="img-size-75 ml-3 mt-3 img-circle">
-      <div class="Adjust">
-          <button  class="ProfilePic">Edit profile picture</button>
-      </div>
+
 
     </div>
     <div class="container">
-      <form action="submit"
-      [formGroup]="userData"
-      (submit)="updateUser(userData.value)">
+      <form (ngSubmit)="updateUser()">
           <label>User name</label>
-        <input type="text" id="username" [placeholder]="user.username" formControlName="username">
+        <input type="text" id="username"  [(ngModel)]="username" name="username">
         <label>Full name</label>
-        <input type="text" id="fullname" [placeholder]="user.fullname" formControlName="fullname">
+        <input type="text" id="fullname" [(ngModel)]="fullname" name="fullname">
         <label>E-mail</label>
-        <input type="email" id="email" [placeholder]="user.email" formControlName="email">
+        <input type="email" [(ngModel)]="email" name="email" placeholder="Email">
 
         <label>Bio</label>
-        <input type="text" id="bio" [placeholder]="user.bio" formControlName="bio">
+        <input type="text" id="bio" [(ngModel)]="bio" name="bio" placeholder="Write about yourself">
+
+        <label>Password</label>
+        <input type="password" [(ngModel)]="password" name="password" placeholder="Password">
 
 
         <button id="BtnBack" routerLink="/ProfilePage" >Back</button>

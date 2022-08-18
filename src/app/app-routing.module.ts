@@ -9,6 +9,7 @@ import { MessagesPageComponent } from './messages-page/messages-page.component';
 import { ProfilePageComponent } from './profile-page/profile-page.component';
 import { RegisterPageComponent } from './register-page/register-page.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { PutemailComponent } from './putemail/putemail.component';
 
 const routes: Routes = [
   {
@@ -43,6 +44,8 @@ const routes: Routes = [
     path: "hello/:token",
     component: WelcomeComponent
   },
+  {path: "PutEmail",
+  component: PutemailComponent},
   {
     path: "**",
     component: Error404Component

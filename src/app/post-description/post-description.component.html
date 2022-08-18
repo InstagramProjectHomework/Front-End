@@ -1,39 +1,30 @@
 <div class="content">
   <div class="head">
     <h2 class="title">New Post</h2>
-    <h5 class="share" (click)="closePostModal()">Share</h5>
+    <h5 class="share" (click)="closePostModal()">Cancel</h5>
   </div>
-  <div class="profile">
-    <img
-      class="ImageCollocation"
-      src="../../assets/img/user1-128x128.jpg"
-      alt="User Avatar"
-      class="img-size-50 ml-3 mt-3 img-circle"
-    />
-    <h5 class="DescriptionUsername">Username</h5>
-  </div>
-  <br>
+  <form (ngSubmit)="createPost()">
+    <br>
   <div>
-    <label for="image_uploads">Choose images to upload (PNG, JPG)</label>
-    <br />
+    <label for="image_uploads">Please enter the link for your image.</label>
+    <br/>
     <input
-      #imageInput
-      type="file"
+      type="text"
       id="image_uploads"
-      name="image_uploads"
+      name="photolink"
       accept="image/*"
+      [(ngModel)]="photolink"
     />
   </div>
   <br />
   <div class="textContent">
-    <textarea
-      class="TextArea"
+    <input
+      type="text"
       placeholder="Write a description"
-      maxlength="180"
-      name=""
-      id=""
-      cols="30"
-      rows="5"
-    ></textarea>
+      name="description"
+      [(ngModel)]="description"
+    >
   </div>
+  <button type="submit">Save Post</button>
+</form>
 </div>

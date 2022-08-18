@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="box">
+      <div class="heading"><h5>Please enter your email</h5></div>
+      <form class="login-form" (ngSubmit)="sendPassword()">
+          <div class="field">
+              <input id="email" type="name" name="email" placeholder="example@example.com" [(ngModel)]="email"/>
+              <label>Email</label>
+          </div>
+          <div class="other">
+              <a class="forgot-password"></a>
+          </div>
+          <button class="login-button" type="submit" title="login">Send Email</button>
+      </form>
+  </div>
+</div>

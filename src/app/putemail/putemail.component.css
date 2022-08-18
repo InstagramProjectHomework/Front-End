@@ -8,8 +8,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #3897f0;
-  font-weight: 600;
 }
 
 .container {
@@ -40,9 +38,9 @@ a {
 
 .heading {
   margin: 22px auto 12px;
-  background-image: url("https://i.imgur.com/f8mRHdJ.png");
   height: 51px;
-  width: 160px;
+  text-align: center;
+  width: 80%;
   overflow: hidden;
 }
 
@@ -153,22 +151,4 @@ input:not(:placeholder-shown) {
   color: #385185;
   font-weight: 600;
   background: transparent;
-}
-
-.fb-icon {
-  color: #385185;
-  font-size: 1rem;
-  padding-right: 1px;
-}
-
-.forgot-password {
-  font-size: .9rem;
-  color: #003569;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.signup {
-  color: #3897f0;
-  font-weight: 600;
 }

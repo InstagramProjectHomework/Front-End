@@ -23,6 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { PutemailComponent } from './putemail/putemail.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     EditProfileComponent,
     PostDescriptionComponent,
     Error404Component,
-    WelcomeComponent
+    WelcomeComponent,
+    PutemailComponent
   ],
   imports: [
     BrowserModule,

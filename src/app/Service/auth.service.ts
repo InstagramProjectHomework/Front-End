@@ -64,6 +64,13 @@ export class AuthService {
 
         }
 
+  resetPassword(email: string) {
+    this.http.post(this.localURL + '/api/user/resetpassword', {email: email}).subscribe((res:any) => {
+      this.toastr.success('Password reset successfully. Check your Email.');
+
+          });
+        }
+
 
 
 
