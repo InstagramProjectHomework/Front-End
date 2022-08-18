@@ -10,6 +10,7 @@ import { environment } from 'src/environments/environment';
 import { CookieService } from 'ngx-cookie-service';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
+import { ApiService } from '../Service/api.service';
 
 
 @Component({
@@ -23,6 +24,7 @@ export class ProfilePageComponent implements OnInit {
   faComment = faComment;
   faHeart = faHeart;
   user = <any>[];
+  posts = <any>[];
   public checar;
   private readonly localURL = `${environment.localUrl}`;
 
@@ -35,10 +37,21 @@ export class ProfilePageComponent implements OnInit {
     private cookie: CookieService,
     private router: Router,
     private toastr: ToastrService,
+    private apiService: ApiService,
     ) { }
 
   ngOnInit(): void {
    this.getUserData();
+   this.getUserPosts();
+  }
+
+  getUserPosts(){
+    this.apiService.getUserPosts().subscribe((response) => {
+      let _response;
+      _response = response;
+      this.posts = _response.posts;
+      console.log(_response);
+     });
   }
 
 
