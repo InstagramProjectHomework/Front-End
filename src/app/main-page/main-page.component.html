@@ -1,93 +1,11 @@
 <app-nav-bar></app-nav-bar>
-<div class="container">
-    <div>
-        <img class="ImageCollocation" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-3 img-circle">
+<div class="container" >
+    <div class="container2"*ngFor="let user of usersInfo">
+        <img class="ImageCollocation" src={{user.userphoto}} onerror="this.src='https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg'" alt="User Avatar">
         <div class="Adjust">
-            <p class="UserName">UserName</p>
-            <p class="UserAlias">UserAlias</p>
+            <p class="UserName">{{user.username}}</p>
+            <p class="UserAlias">{{user.fullname}}</p>
             <p class="State">Popular</p>
-           <button class="FollowButton">Seguir</button>
-        </div>
-    </div>
-    <div>
-        <img class="ImageCollocation" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-3 img-circle">
-        <div class="Adjust">
-            <p class="UserName">UserName</p>
-            <p class="UserAlias">UserAlias</p>
-            <p class="State">Popular</p>
-            <button class="FollowButton">Seguir</button>
-        </div>
-    </div>
-    <div>
-        <img class="ImageCollocation" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-3 img-circle">
-        <div class="Adjust">
-            <p class="UserName">UserName</p>
-            <p class="UserAlias">UserAlias</p>
-            <p class="State">Popular</p>
-            <button class="FollowButton">Seguir</button>
-        </div>
-    </div>
-    <div>
-        <img class="ImageCollocation" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-3 img-circle">
-        <div class="Adjust">
-            <p class="UserName">UserName</p>
-            <p class="UserAlias">UserAlias</p>
-            <p class="State">Popular</p>
-            <button class="FollowButton">Seguir</button>
-        </div>
-    </div>
-    <div>
-        <img class="ImageCollocation" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-3 img-circle">
-        <div class="Adjust">
-            <p class="UserName">UserName</p>
-            <p class="UserAlias">UserAlias</p>
-            <p class="State">Popular</p>
-            <button class="FollowButton">Seguir</button>
-        </div>
-    </div>
-    <div>
-        <img class="ImageCollocation" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-3 img-circle">
-        <div class="Adjust">
-            <p class="UserName">UserName</p>
-            <p class="UserAlias">UserAlias</p>
-            <p class="State">Popular</p>
-            <button class="FollowButton">Seguir</button>
-        </div>
-    </div>
-    <div>
-        <img class="ImageCollocation" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-3 img-circle">
-        <div class="Adjust">
-            <p class="UserName">UserName</p>
-            <p class="UserAlias">UserAlias</p>
-            <p class="State">Popular</p>
-            <button class="FollowButton">Seguir</button>
-        </div>
-    </div>
-    <div>
-        <img class="ImageCollocation" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-3 img-circle">
-        <div class="Adjust">
-            <p class="UserName">UserName</p>
-            <p class="UserAlias">UserAlias</p>
-            <p class="State">Popular</p>
-            <button class="FollowButton">Seguir</button>
-        </div>
-    </div>
-    <div>
-        <img class="ImageCollocation" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-3 img-circle">
-        <div class="Adjust">
-            <p class="UserName">UserName</p>
-            <p class="UserAlias">UserAlias</p>
-            <p class="State">Popular</p>
-            <button class="FollowButton">Seguir</button>
-        </div>
-    </div>
-    <div>
-        <img class="ImageCollocation" src="../../assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 mt-3 img-circle">
-        <div class="Adjust">
-            <p class="UserName">UserName</p>
-            <p class="UserAlias">UserAlias</p>
-            <p class="State">Popular</p>
-            <button class="FollowButton">Seguir</button>
-        </div>
+            </div>
     </div>
 </div>
