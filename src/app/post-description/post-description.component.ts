@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SwitchModalService } from '../Service/switch-modal.service';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
-import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-post-description',
@@ -12,13 +11,13 @@ export class PostDescriptionComponent implements OnInit {
 
   faArrowLeft = faArrowLeft;
 
-  constructor(private PostModal: MatDialog) { }
+  constructor(public PostModal: SwitchModalService) { }
 
   ngOnInit(): void {
   }
   
   closePostModal(){
-    this.PostModal.closeAll()
+    this.PostModal.$postModal.emit(false);
   }
 
 }

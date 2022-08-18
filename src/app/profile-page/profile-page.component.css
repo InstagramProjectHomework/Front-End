@@ -66,13 +66,10 @@ img {
     justify-content: center;
     align-items: center;
     margin-right: 3rem;
-
 }
 
 .profile-image img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
 }
 
 .profile-user-settings,
@@ -266,7 +263,7 @@ img {
         font-size: 2rem;
         margin-left: 1rem;
         width: 0px;
-
+    
     }
     .out-btn{
         font-size: 2rem;
@@ -323,7 +320,7 @@ img {
 
 /*
 The following code will only run if your browser supports CSS grid.
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling.
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling. 
 */
 
 @supports (display: grid) {
