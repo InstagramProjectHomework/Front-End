@@ -148,7 +148,7 @@ body {
     cursor: pointer;
 }
 
-.heart{
+.signout{
   position: fixed;
   margin-left: -5%;
   margin-top: -1%;
@@ -170,35 +170,35 @@ body {
     margin-top: -.3%;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: -10%;
     margin-top: -.3%;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: -5.5%;
     margin-top: -.3%;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: -1.5%;
       margin-top: -.3%;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 3%;
     margin-top: -.3%;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 7.5%;
@@ -214,35 +214,35 @@ body {
     margin-top: -.5%;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: -10%;
     margin-top: -.5%;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: -5.5%;
     margin-top: -.5%;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: -1.5%;
       margin-top: -.5%;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 3%;
     margin-top: -.5%;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 7.5%;
@@ -257,35 +257,35 @@ body {
     margin-top: -.7%;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: -10%;
     margin-top: -.7%;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: -5.5%;
     margin-top: -.7%;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: -1.5%;
       margin-top: -.7%;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 3%;
     margin-top: -.7%;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 7.5%;
@@ -300,35 +300,35 @@ body {
     margin-top: -.8%;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: -10%;
     margin-top: -.8%;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: -5.5%;
     margin-top: -.8%;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: -1.5%;
       margin-top: -.8%;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 3%;
     margin-top: -.8%;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 7.5%;
@@ -344,35 +344,35 @@ body {
     margin-top: -1.3%;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: -10%;
     margin-top: -1.3%;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: -5.5%;
     margin-top: -1.3%;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: -1.5%;
       margin-top: -1.3%;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 3%;
     margin-top: -1.3%;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 7.5%;
@@ -388,35 +388,35 @@ body {
     margin-top: -1.5%;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: -10%;
     margin-top: -1.5%;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: -5.5%;
     margin-top: -1.5%;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: -1.5%;
       margin-top: -1.5%;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 3%;
     margin-top: -1.5%;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 7.5%;
@@ -431,35 +431,35 @@ body {
     margin-top: -2%;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: -10%;
     margin-top: -2%;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: -5.5%;
     margin-top: -2%;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: -1.5%;
       margin-top: -2%;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 3%;
     margin-top: -2%;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 7.5%;
@@ -483,7 +483,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: 27%;
@@ -491,7 +491,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: 39%;
@@ -499,7 +499,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: 50%;
@@ -507,15 +507,15 @@ body {
       font-size: 200% !important;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 62%;
     margin-top: -4%;
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 74%;
@@ -540,7 +540,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: 27%;
@@ -548,7 +548,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: 39%;
@@ -556,7 +556,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: 50%;
@@ -564,15 +564,15 @@ body {
       font-size: 200% !important;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 62%;
     margin-top: -4.7%;
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 74%;
@@ -593,7 +593,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: 27%;
@@ -601,7 +601,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: 39%;
@@ -609,7 +609,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: 50%;
@@ -617,15 +617,15 @@ body {
       font-size: 200% !important;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 62%;
     margin-top: -5.7%;
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 74%;
@@ -643,7 +643,7 @@ body {
   .logo{
     display: none;
   }
-  
+
   .house{
     position: fixed;
     margin-left: 4%;
@@ -651,7 +651,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: 20%;
@@ -659,7 +659,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: 36%;
@@ -667,7 +667,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: 50%;
@@ -675,15 +675,15 @@ body {
       font-size: 200% !important;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 63.5%;
     margin-top: -6.8%;
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 78%;
@@ -701,7 +701,7 @@ body {
   .logo{
     display: none;
   }
-  
+
   .house{
     position: fixed;
     margin-left: 2%;
@@ -709,7 +709,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .message{
     position: fixed;
     margin-left: 18%;
@@ -717,7 +717,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .squarePlus{
     position: fixed;
     margin-left: 34%;
@@ -725,7 +725,7 @@ body {
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .compass{
       position: fixed;
       margin-left: 47%;
@@ -733,15 +733,15 @@ body {
       font-size: 200% !important;
       cursor: pointer;
   }
-  
-  .heart{
+
+  .signout{
     position: fixed;
     margin-left: 60.5%;
     margin-top: -9%;
     font-size: 200% !important;
     cursor: pointer;
   }
-  
+
   .userCircle{
     position: fixed;
     margin-left: 74%;
