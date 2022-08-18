@@ -34,6 +34,7 @@ export class AuthService {
           this.toastr.success(res.message);
           this.router.navigate(['ProfilePage']);
           this.cookie.set('login', res.user, { expires: 3 / 24 });
+          sessionStorage.setItem('email', res.user.email);
         },(err: Error) => {
           if (err) return this.toastr.error('Wrong Email or Password. Try Again');
           return 0;
@@ -41,12 +42,30 @@ export class AuthService {
         );
   }
   logOut() {
-    this.cookie.delete('login');
+    this.cookie.deleteAll();
     this.http.get(this.localURL + '/api/logout').subscribe((resp: any) => {
       this.toastr.success(resp);
       this.router.navigate(['']);
     });
   }
+  register(username: string, email: string, password: string, fullname: string) {
+    this.http
+      .post(
+        this.localURL + '/api/signup',
+        {username: username, email: email, password: password,fullname: fullname}).subscribe((res: any) => {
+          console.log({'This is the response from the server: ' :res})
+          this.user = res.user;
+          this.toastr.success(res.message);
+          this.router.navigate(['']);
+        },(err: Error) => {
+          if (err) return this.toastr.error(err.message);
+          return 0;
+        });
+
+        }
+
+
+
 
   public get logIn(): boolean {
     if (this.cookie.get('login')) return true;

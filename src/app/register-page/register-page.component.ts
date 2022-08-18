@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ToastrService } from 'ngx-toastr';
+import { Router } from '@angular/router';
+import {AuthService} from 'src/app/Service/auth.service';
 
 @Component({
   selector: 'app-register-page',
@@ -7,9 +10,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterPageComponent implements OnInit {
 
-  constructor() { }
+  username: any;
+  email: any;
+  password: any;
+  fullname: any;
+
+  constructor(private authService: AuthService, private toastr: ToastrService, private router: Router) { }
+
+  register(){
+    this.authService.register(this.username, this.email, this.password, this.fullname)
+  }
 
   ngOnInit(): void {
+    if(this.authService.logIn){
+      this.toastr.success('You are already logged in.','What?');
+      this.router.navigate(['FeedPage'])
+    }
   }
 
 }
