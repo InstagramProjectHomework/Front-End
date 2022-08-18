@@ -41,7 +41,7 @@ export class ProfilePageComponent implements OnInit {
    this.getUserData();
   }
 
-  
+
   getUserData(){
     this.http
     .get(
@@ -54,11 +54,8 @@ export class ProfilePageComponent implements OnInit {
   async EmailisVerificate(EmailisVerified){
     if(EmailisVerified === false){
       this.cookie.deleteAll();
-    this.http.get(this.localURL + '/api/logout').subscribe((resp: any) => {
       this.toastr.warning('Please verify your email address', 'Verify Email');
       this.router.navigate(['']);
-
-    });
     }else{
       this.router.navigate(['ProfilePage']);
     }
