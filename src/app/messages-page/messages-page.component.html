@@ -1,0 +1,13 @@
+<app-nav-bar></app-nav-bar>
+<div class="container">
+    <div class="containerChats">
+        <div *ngFor="let user of usersInfo" (click)="openCommentsModal()" class="ChatComponent">
+            <img class="Image" src="{{user.userphoto}}" alt="User Avatar" class="img-size-50 ml-3 mt-2 img-circle">
+            <p class="UserNameChat">{{user.username}}</p>
+            <p class="LastComment">LastComment</p>
+        </div>
+    </div>
+    <div *ngIf="CommentsModal == true">
+        <app-comments-modal></app-comments-modal>
+    </div>
+</div>

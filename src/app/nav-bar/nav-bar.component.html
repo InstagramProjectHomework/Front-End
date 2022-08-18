@@ -1,0 +1,30 @@
+<div class="navigation">
+    <div class="logo">
+        <a class="no-underline" style="font-size: 3rem;" routerLink="/MainPage">
+            GraphLite
+        </a>
+    </div>
+    <div class="navigation-search-container">
+        <i class="fa fa-search"></i>
+        <input class="search-field" type="text" placeholder="Search">
+        <div class="search-container">
+            <div class="search-container-box">
+                <div class="search-results">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-icons">
+        <fa-icon routerLink="/MainPage" class="house" style="margin-left: 50%;" style="font-size: 150%;" [icon]="faHouse"></fa-icon>
+        <fa-icon routerLink="/MessagesPage" class="message" style="margin-left: 50%;" style="font-size: 150%;" [icon]="faMessage"></fa-icon>
+        <fa-icon class="squarePlus" (click)="openPostModal()" style="margin-left: 50%;" style="font-size: 150%;" [icon]="faSquarePlus"></fa-icon>
+        <fa-icon routerLink="/FeedPage" class="compass" style="margin-left: 300%;" style="font-size: 150%;" [icon]="faCompass"></fa-icon>
+        <fa-icon class="signout" (click)="logout()" style="margin-left: 70%;"  style="font-size: 150%;" [icon]="faSignOut"></fa-icon>
+        <fa-icon routerLink="/ProfilePage" class="userCircle" style="margin-left: 50%;" style="font-size: 150%;" [icon]="faUserCircle"></fa-icon>
+
+    </div>
+</div>
+<div *ngIf="Post == true">
+    <app-post-description></app-post-description>
+</div>

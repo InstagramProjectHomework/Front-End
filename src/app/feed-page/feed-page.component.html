@@ -1,0 +1,26 @@
+<app-nav-bar></app-nav-bar>
+<main class="AdjustTop">
+	<div class="container">
+		<div *ngIf="modalSwitch == true">
+			<app-feed-modal></app-feed-modal>
+		</div>
+		<div class="gallery">
+            <div class="gallery-item" *ngFor="let post of posts;" tabindex="0">
+				<img  src="{{post.photolink}}" class="gallery-image" alt="">
+
+				<div (click)="openModal()" class="gallery-item-info">
+
+					<ul>
+						<li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><fa-icon style="margin-top: 100%;" [icon]="faHeart"></fa-icon> {{post.likenumber}}</li>
+						<li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><fa-icon style="margin-top: 100%;" [icon]="faComment"></fa-icon> {{post.commentnumber}}</li>
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</main>

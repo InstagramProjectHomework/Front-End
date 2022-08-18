@@ -1,0 +1,74 @@
+<app-nav-bar></app-nav-bar>
+<header>
+
+	<div class="container">
+
+		<div class="profile">
+
+			<div class="profile-image">
+
+				
+<img class="imgprofile"src={{user.userphoto}} alt="">
+			</div>
+
+			<div class="profile-user-settings">
+
+				<h1 class="profile-user-name">{{user.username}}</h1>
+
+				<button class="btn profile-edit-btn" routerLink="/EditProfile">Edit Profile</button>
+
+				<button class="btn profile-settings-btn" aria-label="profile settings"><fa-icon style="margin-top: 100%;" [icon]="faRightFromBracket"></fa-icon></button>
+
+			</div>
+
+			<div class="profile-stats">
+
+				<ul>
+					<li><span class="profile-stat-count">{{user.postnumber}}</span> posts</li>
+					<li><span class="profile-stat-count">{{user.followernumber}}</span> followers</li>
+					<li><span class="profile-stat-count">{{user.followingnumber}}</span> following</li>
+				</ul>
+
+			</div>
+
+			<div class="profile-bio">
+
+				<p><span class="profile-real-name">{{user.fullname}}</span> {{user.bio}}</p>
+
+			</div>
+
+		</div>
+		<!-- End of profile section -->
+
+	</div>
+	<!-- End of container -->
+
+</header>
+
+<main>
+
+	<div class="container">
+
+		<div class="gallery">
+
+			<div class="gallery-item" *ngFor="let post of posts;" tabindex="0">
+				<img  src="{{post.photolink}}" class="gallery-image" alt="">
+
+				<div  class="gallery-item-info">
+
+					<ul>
+						<li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><fa-icon style="margin-top: 100%;" [icon]="faHeart"></fa-icon> {{post.likenumber}}</li>
+						<li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><fa-icon style="margin-top: 100%;" [icon]="faComment"></fa-icon> {{post.commentnumber}}</li>
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+		<!-- End of gallery -->
+
+	</div>
+	<!-- End of container -->
+
+</main>
